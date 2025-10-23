@@ -1,0 +1,5 @@
+# Ignore private host vars and real inventories
+host_vars/*
+inventories/prod/hosts.yml
+secrets/*
+*.retry
